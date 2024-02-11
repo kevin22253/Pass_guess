@@ -1,1 +1,19 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Search</title>
+</head>
+<body>
+    <h2>Word Search</h2>
+    <form action="/search" method="post" enctype="multipart/form-data">
+        <label for="word">Enter a word:</label><br>
+        <input type="text" id="word" name="word" required><br>
+        <label for="file">Upload a text file:</label><br>
+        <input type="file" id="file" name="file" accept=".txt" required><br>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
